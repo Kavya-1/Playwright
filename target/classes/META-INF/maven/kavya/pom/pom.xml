@@ -6,9 +6,43 @@
   <name>PlayWrightPractice</name>
   <properties>
 	  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	  <maven.compiler.source>1.8</maven.compiler.source>
-	  <maven.compiler.target>1.8</maven.compiler.target>
+	  <maven.compiler.source>2</maven.compiler.source>
+	  <maven.compiler.target>2</maven.compiler.target>
   </properties>
+  
+  <profiles>
+    <profile>
+        <id>Base configuration</id>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+        <build>
+            <defaultGoal>install</defaultGoal>
+            <plugins>                    
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.19.1</version>
+                    <inherited>true</inherited>
+                    <executions>
+                        <execution>
+                            <phase>test</phase>
+                            <goals>
+                                <goal>test</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <suiteXmlFiles>
+                            <suiteXmlFile>/src/test/resources/testrunners/testng_regression.xml</suiteXmlFile>
+                        </suiteXmlFiles>                            
+                    </configuration>
+                </plugin>
+            </plugins>
+        </build>
+    </profile>
+</profiles>
+
   <dependencies>
 	  <!-- https://mvnrepository.com/artifact/com.microsoft.playwright/playwright -->
 <dependency>
