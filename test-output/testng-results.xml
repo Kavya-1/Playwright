@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-30T20:47:01 IST" name="Shopping Website" finished-at="2023-05-30T20:48:54 IST" duration-ms="113020">
+    <groups>
+    </groups>
+    <test started-at="2023-05-30T20:47:01 IST" name="Login Page Test" finished-at="2023-05-30T20:48:48 IST" duration-ms="107071">
+      <class name="com.kavya.shoppingcart.BasePage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kavya.shoppingcart.BasePage@1dde4cb2]" started-at="2023-05-30T20:47:01 IST" name="setUp" finished-at="2023-05-30T20:48:27 IST" duration-ms="86545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kavya.shoppingcart.BasePage@1dde4cb2]" started-at="2023-05-30T20:48:27 IST" name="tearDown" finished-at="2023-05-30T20:48:48 IST" duration-ms="20495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kavya.shoppingcart.BasePage -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2023-05-30T20:47:01 IST" name="Home Page Test" finished-at="2023-05-30T20:48:54 IST" duration-ms="113020">
+      <class name="com.kavya.shoppingcart.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kavya.shoppingcart.HomePageTest@10e41621]" started-at="2023-05-30T20:47:01 IST" name="setUp" finished-at="2023-05-30T20:48:27 IST" duration-ms="86545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.kavya.shoppingcart.HomePageTest@10e41621]" started-at="2023-05-30T20:48:28 IST" name="homePageTitleTest" finished-at="2023-05-30T20:48:28 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="homePageURLTest()[pri:0, instance:com.kavya.shoppingcart.HomePageTest@10e41621]" started-at="2023-05-30T20:48:28 IST" name="homePageURLTest" finished-at="2023-05-30T20:48:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageURLTest -->
+        <test-method signature="loginTest()[pri:0, instance:com.kavya.shoppingcart.HomePageTest@10e41621]" started-at="2023-05-30T20:48:28 IST" name="loginTest" finished-at="2023-05-30T20:48:29 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.kavya.shoppingcart.HomePageTest@10e41621]" started-at="2023-05-30T20:48:29 IST" name="searchProduct" data-provider="productData" finished-at="2023-05-30T20:48:30 IST" duration-ms="1125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.kavya.shoppingcart.HomePageTest@10e41621]" started-at="2023-05-30T20:48:30 IST" name="searchProduct" data-provider="productData" finished-at="2023-05-30T20:48:31 IST" duration-ms="457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[imac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.kavya.shoppingcart.HomePageTest@10e41621]" started-at="2023-05-30T20:48:31 IST" name="searchProduct" data-provider="productData" finished-at="2023-05-30T20:48:31 IST" duration-ms="432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kavya.shoppingcart.HomePageTest@10e41621]" started-at="2023-05-30T20:48:31 IST" name="tearDown" finished-at="2023-05-30T20:48:54 IST" duration-ms="22875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kavya.shoppingcart.HomePageTest -->
+    </test> <!-- Home Page Test -->
+  </suite> <!-- Shopping Website -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Shopping Website]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.kavya.shoppingcart.HomePageTest">
+        <methods>
+          <include name="searchProduct"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="homePageURLTest"/>
+          <include name="homePageTitleTest"/>
+        </methods>
+      </class> <!-- com.kavya.shoppingcart.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Shopping Website] -->
